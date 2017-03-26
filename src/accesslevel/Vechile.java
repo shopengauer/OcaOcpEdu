@@ -12,4 +12,6 @@ public class Vechile {
     protected String color;
     public LocalDate localDate;
 
+    public Vechile() {
+    }
 }
