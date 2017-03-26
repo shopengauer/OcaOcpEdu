@@ -7,6 +7,7 @@ import java.time.LocalDate;
  */
 public class Vechile {
 
+    String model;
     private String name;
     protected String color;
     public LocalDate localDate;
