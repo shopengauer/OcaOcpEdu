@@ -22,7 +22,7 @@ public class Car extends Vechile {
 
     public Vechile createCar(){
         Vechile vechile = new Vechile();
-        // но при создании класса Vechile   protected члены не видны, они толко наследуются
+        // но при создании объекта Vechile   protected члены не видны, они толко наследуются
         vechile.localDate = null;
         return vechile;
 
